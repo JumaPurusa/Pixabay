@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 
 import com.example.pixabay.R;
 
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -23,7 +24,7 @@ public class VideosFragment extends Fragment {
     public final static String ARG_PAGE = "ARG_PAGE";
 
     private int mPage;
-    private RecyclerView recyclerView;
+
 
     public VideosFragment() {
         // Required empty public constructor
@@ -54,8 +55,10 @@ public class VideosFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        recyclerView = view.findViewById(R.id.recycler_view);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+//        recyclerView = view.findViewById(R.id.recycler_view);
+//        recyclerView.setHasFixedSize(true);
+//        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+
     }
 }

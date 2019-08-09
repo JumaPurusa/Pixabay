@@ -3,4 +3,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="api_key">11906364-fe11a11461df673d2bc34c00d</string>
+    <string name="web_service_url">https://pixabay.com/api/?key=</string>
+    <string name="invalid_url">Invalid URL</string>
+
+    <string name="read_error">Unable to read data</string>
+    <string name="connect_error">Unable to connect to the servers</string>
 </resources>
